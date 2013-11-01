@@ -4,7 +4,7 @@
   <title><![CDATA[Category: test | snowfoxzx]]></title>
   <link href="http://snowfoxzx.github.io/blog/categories/test/atom.xml" rel="self"/>
   <link href="http://snowfoxzx.github.io/"/>
-  <updated>2013-11-01T16:51:22+08:00</updated>
+  <updated>2013-11-01T16:54:39+08:00</updated>
   <id>http://snowfoxzx.github.io/</id>
   <author>
     <name><![CDATA[snowfoxzx]]></name>
@@ -56,7 +56,7 @@
 
 <p>代码段测试</p>
 
-<p>``` objc Objective-C Code <a href="http://snowfox.cnblogs.com/">http://snowfox.cnblogs.com/</a> start:100 mark:102, 104-106</p>
+<p>``` objc Objective-C Code <a href="http://snowfox.cnblogs.com/">http://snowfox.cnblogs.com/</a>  start:100  mark:102,104-106</p>
 
 <ul>
 <li><p>(void)controlClientPlaying:(int)identifier name:(NSString *)name length:(int)len position:(int)pos
