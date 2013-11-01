@@ -4,7 +4,7 @@
   <title><![CDATA[snowfoxzx]]></title>
   <link href="http://snowfoxzx.github.io/atom.xml" rel="self"/>
   <link href="http://snowfoxzx.github.io/"/>
-  <updated>2013-11-01T16:58:04+08:00</updated>
+  <updated>2013-11-01T16:59:35+08:00</updated>
   <id>http://snowfoxzx.github.io/</id>
   <author>
     <name><![CDATA[snowfoxzx]]></name>
@@ -54,7 +54,7 @@
 
 <p>Test end.</p></blockquote>
 
-<p>代码段Test</p>
+<p>Code snippet Test</p>
 
 <figure class='code'><figcaption><span>Objective-C Code</span><a href='http://snowfox.cnblogs.com/'>start:100  mark:102,104-106</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
