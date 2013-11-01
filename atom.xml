@@ -4,7 +4,7 @@
   <title><![CDATA[snowfoxzx]]></title>
   <link href="http://snowfoxzx.github.io/atom.xml" rel="self"/>
   <link href="http://snowfoxzx.github.io/"/>
-  <updated>2013-11-01T16:54:39+08:00</updated>
+  <updated>2013-11-01T16:58:04+08:00</updated>
   <id>http://snowfoxzx.github.io/</id>
   <author>
     <name><![CDATA[snowfoxzx]]></name>
@@ -14,47 +14,47 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Octopress 测试]]></title>
+    <title type="html"><![CDATA[Octopress Test]]></title>
     <link href="http://snowfoxzx.github.io/blog/2013/11/01/test-octopress/"/>
     <updated>2013-11-01T16:13:00+08:00</updated>
     <id>http://snowfoxzx.github.io/blog/2013/11/01/test-octopress</id>
-    <content type="html"><![CDATA[<p>新博测试.</p>
+    <content type="html"><![CDATA[<p>New blog test.</p>
 
 <!-- more -->
 
 
-<h1>测试</h1>
+<h1>Test</h1>
 
-<h2>测试</h2>
+<h2>Test</h2>
 
-<h3>测试</h3>
+<h3>Test</h3>
 
-<p><em>测试</em></p>
+<p><em>Test</em></p>
 
-<h3><em>测试</em></h3>
+<h3><em>Test</em></h3>
 
 <ol>
-<li>测试1</li>
-<li>测试2</li>
-<li>测试3</li>
+<li>Test1</li>
+<li>Test2</li>
+<li>Test3</li>
 </ol>
 
 
 <hr />
 
-<blockquote><p>测试测试</p></blockquote>
+<blockquote><p>TestTest</p></blockquote>
 
 <p><a href="http://snowfox.cnblogs.com">old blog</a></p>
 
 <p><img src="http://1.gravatar.com/avatar/47d292e290b63bb24c91a3f51b33112e?size=256x256" alt="My Avatar" /></p>
 
-<blockquote><p>测试</p>
+<blockquote><p>Test.</p>
 
-<blockquote><p>再测试</p></blockquote>
+<blockquote><p>Test again.</p></blockquote>
 
-<p>结束</p></blockquote>
+<p>Test end.</p></blockquote>
 
-<p>代码段测试</p>
+<p>代码段Test</p>
 
 <figure class='code'><figcaption><span>Objective-C Code</span><a href='http://snowfox.cnblogs.com/'>start:100  mark:102,104-106</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -161,9 +161,9 @@
 </span></code></pre></td></tr></table></div></figure>
 
 
-<p><a href="http://snowfox.cnblogs.com">参考1</a></p>
+<p><a href="http://snowfox.cnblogs.com">Refrence 1</a></p>
 
-<p><a href="http://www.zehaotech.com">参考2</a></p>
+<p><a href="http://www.zehaotech.com">Refrence 2</a></p>
 ]]></content>
   </entry>
   
