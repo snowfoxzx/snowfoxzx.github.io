@@ -3,8 +3,8 @@
 # ----------------------- #
 
 url: http://snowfoxzx.github.io
-title: snowfoxzx's Blog
-subtitle: A blogging framework for hackers.
+title: snowfoxzx
+subtitle: 懒人...
 author: snowfoxzx
 simple_search: http://google.com/search
 description:
@@ -20,6 +20,9 @@ subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
 email:
+
+# GreyShade theme Avatar setting
+email_md5: 47d292e290b63bb24c91a3f51b33112e
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -90,7 +93,7 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
+disqus_short_name: snowfoxzxsblog
 disqus_show_comment_count: false
 
 # Google Analytics
