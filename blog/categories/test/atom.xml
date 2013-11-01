@@ -4,7 +4,7 @@
   <title><![CDATA[Category: test | snowfoxzx]]></title>
   <link href="http://snowfoxzx.github.io/blog/categories/test/atom.xml" rel="self"/>
   <link href="http://snowfoxzx.github.io/"/>
-  <updated>2013-11-01T16:44:04+08:00</updated>
+  <updated>2013-11-01T16:51:22+08:00</updated>
   <id>http://snowfoxzx.github.io/</id>
   <author>
     <name><![CDATA[snowfoxzx]]></name>
@@ -54,117 +54,68 @@
 
 <p>结束</p></blockquote>
 
-<p>代码段测试
-<div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>Objective-C Code <a href="http://snowfox.cnblogs.com">http://snowfox.cnblogs.com</a> start:100 mark:102, 104-106 </span></figcaption>
-<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-<span class='line-number'>19</span>
-<span class='line-number'>20</span>
-<span class='line-number'>21</span>
-<span class='line-number'>22</span>
-<span class='line-number'>23</span>
-<span class='line-number'>24</span>
-<span class='line-number'>25</span>
-<span class='line-number'>26</span>
-<span class='line-number'>27</span>
-<span class='line-number'>28</span>
-<span class='line-number'>29</span>
-<span class='line-number'>30</span>
-<span class='line-number'>31</span>
-<span class='line-number'>32</span>
-<span class='line-number'>33</span>
-<span class='line-number'>34</span>
-<span class='line-number'>35</span>
-<span class='line-number'>36</span>
-<span class='line-number'>37</span>
-<span class='line-number'>38</span>
-<span class='line-number'>39</span>
-<span class='line-number'>40</span>
-<span class='line-number'>41</span>
-<span class='line-number'>42</span>
-<span class='line-number'>43</span>
-<span class='line-number'>44</span>
-<span class='line-number'>45</span>
-<span class='line-number'>46</span>
-<span class='line-number'>47</span>
-<span class='line-number'>48</span>
-<span class='line-number'>49</span>
-<span class='line-number'>50</span>
-<span class='line-number'>51</span>
-<span class='line-number'>52</span>
-<span class='line-number'>53</span>
-<span class='line-number'>54</span>
-</pre></td><td class='code'><pre><code class='objc'><span class='line'><span class="o">&amp;</span><span class="n">ndash</span><span class="p">;</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nl">controlClientPlaying:</span><span class="p">(</span><span class="kt">int</span><span class="p">)</span><span class="n">identifier</span> <span class="nl">name:</span><span class="p">(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="n">name</span> <span class="nl">length:</span><span class="p">(</span><span class="kt">int</span><span class="p">)</span><span class="n">len</span> <span class="nl">position:</span><span class="p">(</span><span class="kt">int</span><span class="p">)</span><span class="n">pos</span>
-</span><span class='line'><span class="p">{</span><span class="o">&lt;/</span><span class="n">p</span><span class="o">&gt;</span>
-</span><span class='line'>
-</span><span class='line'><span class="o">&lt;</span><span class="n">pre</span><span class="o">&gt;&lt;</span><span class="n">code</span><span class="o">&gt;</span><span class="n">dispatch_async</span><span class="p">(</span><span class="n">dispatch_get_main_queue</span><span class="p">(),</span> <span class="o">^</span><span class="p">{</span>
-</span><span class='line'>        <span class="n">_playFilenameLabel</span><span class="p">.</span><span class="n">text</span> <span class="o">=</span> <span class="n">name</span><span class="p">;</span>
-</span><span class='line'>        <span class="n">_timelineSlider</span><span class="p">.</span><span class="n">maximumValue</span> <span class="o">=</span> <span class="n">len</span><span class="p">;</span>
-</span><span class='line'>        <span class="n">_timelineSlider</span><span class="p">.</span><span class="n">value</span> <span class="o">=</span> <span class="n">pos</span><span class="p">;</span>
-</span><span class='line'>        <span class="n">_timelineLenLabel</span><span class="p">.</span><span class="n">text</span> <span class="o">=</span> <span class="p">[</span><span class="n">self</span> <span class="nl">formatTimeInterval:</span><span class="n">len</span> <span class="o">/</span> <span class="mi">1000</span><span class="p">];</span>
-</span><span class='line'>        <span class="n">_timelinePosLabel</span><span class="p">.</span><span class="n">text</span> <span class="o">=</span> <span class="p">[</span><span class="n">self</span> <span class="nl">formatTimeInterval:</span><span class="n">pos</span> <span class="o">/</span> <span class="mi">1000</span><span class="p">];</span>
-</span><span class='line'>
-</span><span class='line'>        <span class="k">if</span> <span class="p">((</span><span class="n">_latestPlayingPosition</span> <span class="o">==</span> <span class="n">pos</span><span class="p">)</span> <span class="o">&amp;</span><span class="n">amp</span><span class="p">;</span><span class="o">&amp;</span><span class="n">amp</span><span class="p">;</span> <span class="p">(</span><span class="n">self</span><span class="p">.</span><span class="n">playPSButton</span><span class="p">.</span><span class="n">tag</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">))</span> <span class="p">{</span>
-</span><span class='line'>            <span class="n">self</span><span class="p">.</span><span class="n">playPSButton</span><span class="p">.</span><span class="n">tag</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-</span><span class='line'>            <span class="p">[</span><span class="n">self</span> <span class="nl">changePPSButtonStatus:</span><span class="n">NO</span><span class="p">];</span>
-</span><span class='line'>        <span class="p">}</span>
-</span><span class='line'>
-</span><span class='line'>        <span class="k">if</span> <span class="p">((</span><span class="n">_latestPlayingPosition</span> <span class="o">!=</span> <span class="n">pos</span><span class="p">)</span> <span class="o">&amp;</span><span class="n">amp</span><span class="p">;</span><span class="o">&amp;</span><span class="n">amp</span><span class="p">;</span> <span class="p">(</span><span class="n">self</span><span class="p">.</span><span class="n">playPSButton</span><span class="p">.</span><span class="n">tag</span> <span class="o">!=</span> <span class="mi">1</span><span class="p">))</span> <span class="p">{</span>
-</span><span class='line'>            <span class="n">self</span><span class="p">.</span><span class="n">playPSButton</span><span class="p">.</span><span class="n">tag</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
-</span><span class='line'>            <span class="p">[</span><span class="n">self</span> <span class="nl">changePPSButtonStatus:</span><span class="n">YES</span><span class="p">];</span>
-</span><span class='line'>        <span class="p">}</span>
-</span><span class='line'>
-</span><span class='line'>        <span class="n">_latestPlayingPosition</span> <span class="o">=</span> <span class="n">pos</span><span class="p">;</span>
-</span><span class='line'>
-</span><span class='line'>        <span class="k">if</span> <span class="p">(</span><span class="n">_currentPlayingIdentifier</span> <span class="o">!=</span> <span class="n">identifier</span><span class="p">)</span> <span class="p">{</span>
-</span><span class='line'>            <span class="n">_currentPlayingIdentifier</span> <span class="o">=</span> <span class="n">identifier</span><span class="p">;</span>
-</span><span class='line'>
-</span><span class='line'>            <span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-</span><span class='line'>
-</span><span class='line'>            <span class="k">for</span> <span class="p">(</span><span class="n">TYPlayItem</span> <span class="o">*</span><span class="n">pi</span> <span class="k">in</span> <span class="n">_client</span><span class="p">.</span><span class="n">playLists</span><span class="p">)</span> <span class="p">{</span>
-</span><span class='line'>                <span class="k">if</span> <span class="p">(</span><span class="n">pi</span><span class="p">.</span><span class="n">identifier</span> <span class="o">==</span> <span class="n">identifier</span><span class="p">)</span> <span class="p">{</span>
-</span><span class='line'>                    <span class="kt">BOOL</span> <span class="n">founded</span> <span class="o">=</span> <span class="n">false</span><span class="p">;</span>
-</span><span class='line'>
-</span><span class='line'>                    <span class="k">for</span> <span class="p">(</span><span class="n">NSIndexPath</span> <span class="o">*</span><span class="n">index</span> <span class="k">in</span> <span class="n">self</span><span class="p">.</span><span class="n">tableView</span><span class="p">.</span><span class="n">indexPathsForVisibleRows</span><span class="p">)</span> <span class="p">{</span>
-</span><span class='line'>                        <span class="k">if</span> <span class="p">(</span><span class="n">index</span><span class="p">.</span><span class="n">row</span> <span class="o">==</span> <span class="n">i</span><span class="p">)</span> <span class="p">{</span>
-</span><span class='line'>                            <span class="n">founded</span> <span class="o">=</span> <span class="n">true</span><span class="p">;</span>
-</span><span class='line'>                            <span class="k">break</span><span class="p">;</span>
-</span><span class='line'>                        <span class="p">}</span>
-</span><span class='line'>                    <span class="p">}</span>
-</span><span class='line'>
-</span><span class='line'>                    <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">founded</span><span class="p">)</span> <span class="p">{</span>
-</span><span class='line'>                        <span class="p">[</span><span class="n">self</span><span class="p">.</span><span class="n">tableView</span> <span class="nl">setContentOffset:</span><span class="n">CGPointMake</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">i</span> <span class="o">*</span> <span class="n">self</span><span class="p">.</span><span class="n">tableView</span><span class="p">.</span><span class="n">rowHeight</span><span class="p">)</span> <span class="nl">animated:</span><span class="n">YES</span><span class="p">];</span>
-</span><span class='line'>                    <span class="p">}</span>
-</span><span class='line'>
-</span><span class='line'>                    <span class="k">break</span><span class="p">;</span>
-</span><span class='line'>                <span class="p">}</span>
-</span><span class='line'>
-</span><span class='line'>                <span class="n">i</span><span class="o">++</span><span class="p">;</span>
-</span><span class='line'>            <span class="p">}</span>
-</span><span class='line'>
-</span><span class='line'>            <span class="p">[</span><span class="n">self</span><span class="p">.</span><span class="n">tableView</span> <span class="n">reloadData</span><span class="p">];</span>
-</span><span class='line'>        <span class="p">}</span>
-</span><span class='line'>    <span class="p">});</span>
-</span><span class='line'><span class="o">&lt;/</span><span class="n">code</span><span class="o">&gt;&lt;/</span><span class="n">pre</span><span class="o">&gt;</span>
-</span><span class='line'>
-</span><span class='line'><span class="o">&lt;</span><span class="n">p</span><span class="o">&gt;</span><span class="p">}</span>
-</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+<p>代码段测试</p>
+
+<p>``` objc Objective-C Code <a href="http://snowfox.cnblogs.com/">http://snowfox.cnblogs.com/</a> start:100 mark:102, 104-106</p>
+
+<ul>
+<li><p>(void)controlClientPlaying:(int)identifier name:(NSString *)name length:(int)len position:(int)pos
+{
+  dispatch_async(dispatch_get_main_queue(), ^{
+          <em>playFilenameLabel.text = name;
+          </em>timelineSlider.maximumValue = len;
+          <em>timelineSlider.value = pos;
+          </em>timelineLenLabel.text = [self formatTimeInterval:len / 1000];
+          _timelinePosLabel.text = [self formatTimeInterval:pos / 1000];</p>
+
+<pre><code>      if ((_latestPlayingPosition == pos) &amp;&amp; (self.playPSButton.tag != 0)) {
+          self.playPSButton.tag = 0;
+          [self changePPSButtonStatus:NO];
+      }
+
+      if ((_latestPlayingPosition != pos) &amp;&amp; (self.playPSButton.tag != 1)) {
+          self.playPSButton.tag = 1;
+          [self changePPSButtonStatus:YES];
+      }
+
+      _latestPlayingPosition = pos;
+
+      if (_currentPlayingIdentifier != identifier) {
+          _currentPlayingIdentifier = identifier;
+
+          int i = 0;
+
+          for (TYPlayItem *pi in _client.playLists) {
+              if (pi.identifier == identifier) {
+                  BOOL founded = false;
+
+                  for (NSIndexPath *index in self.tableView.indexPathsForVisibleRows) {
+                      if (index.row == i) {
+                          founded = true;
+                          break;
+                      }
+                  }
+
+                  if (!founded) {
+                      [self.tableView setContentOffset:CGPointMake(0, i * self.tableView.rowHeight) animated:YES];
+                  }
+
+                  break;
+              }
+
+              i++;
+          }
+
+          [self.tableView reloadData];
+      }
+  });
+</code></pre>
+
+<p>}</p></li>
+</ul>
+
+
+<p>```</p>
 
 <p><a href="http://snowfox.cnblogs.com">参考1</a></p>
 
